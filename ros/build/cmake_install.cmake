@@ -131,6 +131,12 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/nathan/f1-autonomous/ros/build/gtest/cmake_install.cmake")
+  include("/home/nathan/f1-autonomous/ros/build/ackermann_msgs/cmake_install.cmake")
+  include("/home/nathan/f1-autonomous/ros/build/vesc/vesc/cmake_install.cmake")
+  include("/home/nathan/f1-autonomous/ros/build/vesc/vesc_msgs/cmake_install.cmake")
+  include("/home/nathan/f1-autonomous/ros/build/pemdas_runtime_monitoring/cmake_install.cmake")
+  include("/home/nathan/f1-autonomous/ros/build/vesc/vesc_ackermann/cmake_install.cmake")
+  include("/home/nathan/f1-autonomous/ros/build/vesc/vesc_driver/cmake_install.cmake")
 
 endif()
 
